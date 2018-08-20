@@ -4344,7 +4344,7 @@ var nie = nie || {}; !
                         "onload" in o ? o.onload = function() {
                             n(a)
                         }: t.include.IEonload(o, n, a),
-                            t("head").get(0).appendChild(o)
+                            t("head").get(0)
                     },
                     IEonload: function(t, e, n) {
                         t.onreadystatechange = function() { ("loaded" == this.readyState || "complete" == this.readyState) && e(n)

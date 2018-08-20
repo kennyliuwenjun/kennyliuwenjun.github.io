@@ -4449,16 +4449,7 @@ var nie = nie || {}; !
                 } ()
         } (jQuery),
     !
-        function(t) {
-            nie.useJsURL = "",
-                nie.use = function(e, n) {
-                    var i = e.sort().toString(),
-                        o = t.host + "/comm/js/" + (0 != window.self.location.href.indexOf("http") ? "use.php?p=" + i + "&": "cache/" + t.md5(i)) + ".js";
-                    nie.useJsURL = o,
-                        t.include(o, n)
-                }
-        } (jQuery),
-    !
+
         function($) {
             function unique(t) {
                 for (var e, n = [], i = {},
@@ -4492,9 +4483,6 @@ var nie = nie || {}; !
                     "util.bjTime": "$",
                     "nie.util.mobiShare": "MobileShare",
                     "nie.util.mobiShare2": "MobileShare",
-                    "nie.util.shareV5": "nie.util.share",
-                    "nie.util.shareV4": "nie.util.share",
-                    "nie.util.shareV3": "nie.util.share",
                     "nie.util.videoV2": "nie.util.video",
                     "ui.lightBox": "$",
                     "nie.util.login": "Login",
@@ -4533,7 +4521,6 @@ var nie = nie || {}; !
                     "util.bjTime": 4,
                     "nie.util.Comment": 24,
                     "nie.util.frame": 5,
-                    "nie.util.shareV5": 5,
                     "nie.util.niedownload": 4,
                     "nie.util.GamePackage": 5,
                     "nie.util.imageUploader": 17,
