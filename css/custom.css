@@ -2,5 +2,12 @@
   margin-top: 200px!important;
   color: oldlace;
   font-size: 1.2em;
-  background-color: rgba(153, 113, 113, 0.32);
+}
+
+.skilllist {
+  color: #f05f40!important;
+}
+.skilllistbg {
+  padding-top: 144px;;
+
 }
