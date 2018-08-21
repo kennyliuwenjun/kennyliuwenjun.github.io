@@ -265,7 +265,7 @@ a:hover {
 }
 
 .oversea-bg3{
-    background: url(../res/header-bg.jpg) no-repeat center top fixed
+    background: url(../res/header-2-bg.jpg) no-repeat center top fixed
 }
 .oversea-bg4{
     background: url(../res/header2-min.jpg) no-repeat center top fixed
@@ -274,12 +274,13 @@ a:hover {
     background: url(../res/oversea_shop_banner.jpg) no-repeat center top fixed
 }
 .oversea-bg2{
-    background: url(../res/header-2-bg.jpg) no-repeat center top fixed
+    background: url(../res/header-bg.jpg) no-repeat center top fixed
 }
 .bg-6{
+	padding-top:165px;
 	background: url(../Oversea_site_res/bg6_473e7d8.png) no-repeat center top;
-	height: 400px;
-	margin-top: -192px
+	height: 500px;
+	margin-top: -200px
 }
 
 .domestic-bg2,
@@ -312,7 +313,7 @@ a:hover {
 .bg-3,
 .bg-4,
 .bg-5{
-	margin-top: -192px
+	margin-top: -183px
 }
 
 #NIE-topBar {
@@ -421,11 +422,11 @@ a:hover {
 	position: relative;
 	height: 689px;
 	text-align: center;
-	margin-top: -192px
+	margin-top: -183px
 }
 
 .con .bg {
-	background: url(../Oversea_site_res/txt-bg2_f1d2da3.png) no-repeat center top;
+	background: url(../Oversea_site_res/txt-bg_9b35ecd.png) no-repeat center top;
 	height: 100%;
 	width: 100%;
 	left: 0;
