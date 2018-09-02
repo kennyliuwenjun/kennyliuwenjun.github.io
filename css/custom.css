@@ -10,6 +10,10 @@
 .skilllistbg {
   padding-top: 144px;
 }
+
+.demowork {
+    padding-top: 181px;
+}
 .oldlace {
   background-color: oldlace
 }
@@ -65,4 +69,7 @@
     opacity: 1;
     transform: translateX(0%);
   }
+}
+.portfolio-item {
+  max-width: 25%;
 }
